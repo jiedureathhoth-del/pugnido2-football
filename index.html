@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pugnido 2 Football</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Arial,sans-serif;
+ background:#101820;
+ color:white;
+}
+header{
+ background:#087d45;
+ padding:20px;
+ text-align:center;
+}
+header h1{margin:0;font-size:25px}
+header p{margin:8px 0 0}
+nav{
+ display:flex;
+ overflow-x:auto;
+ background:#17252e;
+ padding:14px;
+ gap:22px;
+}
+nav a{
+ color:white;
+ text-decoration:none;
+ white-space:nowrap;
+ font-weight:bold;
+}
+.hero{
+ padding:45px 20px;
+ text-align:center;
+ background:linear-gradient(135deg,#087d45,#101820);
+}
+.hero h2{font-size:32px}
+.hero button{
+ background:#ffc928;
+ border:0;
+ padding:13px 25px;
+ border-radius:6px;
+ font-weight:bold;
+}
+section{padding:20px}
+h2{color:#ffc928}
+.card{
+ background:#1d2b35;
+ padding:18px;
+ border-radius:10px;
+ margin:12px 0;
+}
+.match{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ gap:8px;
+ text-align:center;
+}
+.score{font-size:22px;font-weight:bold}
+.tag{color:#48e58b;font-weight:bold}
+footer{
+ background:#17252e;
+ text-align:center;
+ padding:25px;
+ color:#ccc;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>⚽ PUGNIDO 2 FOOTBALL</h1>
+<p>Official Football Tournament Website</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#live">Live</a>
+<a href="#fixtures">Fixtures</a>
+<a href="#results">Results</a>
+<a href="#teams">Teams</a>
+<a href="#news">News</a>
+</nav>
+
+<div class="hero" id="home">
+<h2>WELCOME TO PUGNIDO 2 FOOTBALL</h2>
+<p>Your Community. Your Football. Your Tournament.</p>
+<button onclick="document.getElementById('fixtures').scrollIntoView()">
+View Fixtures
+</button>
+</div>
+
+<section id="live">
+<h2>🔴 LIVE MATCHES</h2>
+<div class="card">
+<p>No live matches currently.</p>
+<p>Stay tuned for updates!</p>
+</div>
+</section>
+
+<section id="fixtures">
+<h2>📅 UPCOMING FIXTURES</h2>
+<div class="card">
+<p>Match fixtures will be announced here.</p>
+</div>
+</section>
+
+<section id="results">
+<h2>🏆 MATCH RESULTS</h2>
+<div class="card">
+<p>Latest match results will appear here.</p>
+</div>
+</section>
+
+<section id="teams">
+<h2>👕 TEAMS</h2>
+<div class="card">
+<p>Participating teams will appear here.</p>
+</div>
+</section>
+
+<section id="news">
+<h2>📰 FOOTBALL NEWS</h2>
+<div class="card">
+<p>Welcome to the official Pugnido 2 Football news page.</p>
+</div>
+</section>
+
+<footer>
+<h3>PUGNIDO 2 FOOTBALL</h3>
+<p>Official Tournament Website</p>
+<p>© 2026 Pugnido 2 Football</p>
+</footer>
+
+</body>
+</html>
+￼Enter
